@@ -5,6 +5,7 @@ This document describes the Continuous Integration and Continuous Deployment (CI
 ## Overview
 
 The pipeline automates the process of fetching the code, building the project, running tests, performing static code analysis, and publishing the artifacts to Nexus. Notifications and quality gates are also integrated to ensure code quality and seamless deployment.
+![arsitektur 07 devops project](https://github.com/user-attachments/assets/ecef2965-32d9-42a8-8d95-15e325363a0e)
 
 ## Tools and Technologies Used
 - **Jenkins**: Orchestrates the CI/CD process.
@@ -175,4 +176,4 @@ Ensure the following configurations:
 - SonarQube integration for comprehensive code analysis.
 - Webhooks and quality gates for early detection of code issues.
 - Nexus Repository Manager for artifact version control and storage.
-
+![pipeline output](https://github.com/user-attachments/assets/797896ee-13c7-40c1-a1f1-9e29056d580c)
